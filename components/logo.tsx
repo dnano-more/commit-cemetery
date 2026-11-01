@@ -86,3 +86,4 @@ export function CommitCemeteryLogo({ size = 48, className = '', showText = false
     </div>
   );
 }
+
