@@ -1,7 +1,7 @@
 import { execSync } from 'child_process';
 import path from 'path';
 import fs from 'fs';
-import { CemeteryReport, CommitRecord, GhostFile, HauntedDeveloper, Resurrection, SuspiciousCommit } from './types';
+import { CemeteryReport, CommitRecord, GhostFile, GraveyardSummary, HauntedDeveloper, Resurrection, SuspiciousCommit } from './types';
 import { DEMO_REPOSITORIES } from './sampleData';
 
 const SUSPICIOUS_PATTERNS = [
