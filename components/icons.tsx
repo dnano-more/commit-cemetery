@@ -133,3 +133,4 @@ export function Send({ className = 'w-4 h-4', ...props }: IconProps) {
     </svg>
   );
 }
+

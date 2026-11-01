@@ -85,3 +85,4 @@ Answer in character as the haunted spirit of this codebase in 2-4 sentences. Be 
   }
   return `*The spirits of ${report.summary.repositoryName} whisper...* You ask of "${question}", but the commits from the witching hour hold truths mortals were never meant to rebase. Run "git status" and fear no evil.`;
 }
+

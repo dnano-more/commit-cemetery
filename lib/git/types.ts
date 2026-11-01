@@ -66,3 +66,4 @@ export interface CemeteryReport {
   timeline: { date: string; event: string; type: 'birth' | 'death' | 'haunting' | 'revert' }[];
   isDemo?: boolean;
 }
+

@@ -119,3 +119,7 @@ With one click, export a complete forensic report of any repository to share wit
 
 *Built for the DEV Community Hacktoberfest Challenge: Ghost in the Machine.* 🎃👻
 
+
+---
+
+*Built for the DEV Community Hacktoberfest Challenge: Ghost in the Machine.* 🎃👻

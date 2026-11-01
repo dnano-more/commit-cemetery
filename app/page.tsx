@@ -17,6 +17,7 @@ import {
   VolumeX,
   Terminal
 } from '@/components/icons';
+import { CommitCemeteryLogo } from '@/components/logo';
 import { CemeteryReport, SuspiciousCommit, GhostFile } from '@/lib/git/types';
 import { DEMO_REPOSITORIES } from '@/lib/git/sampleData';
 
@@ -174,12 +175,7 @@ export default function CommitCemetery() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 py-8 sm:py-12">
         {/* Navigation & Controls */}
         <div className="flex items-center justify-between pb-6 border-b border-slate-800/80 mb-8">
-          <div className="flex items-center space-x-3">
-            <span className="text-2xl animate-float-ghost">🪦</span>
-            <span className="font-mono text-xs tracking-widest uppercase bg-purple-950/60 text-purple-300 border border-purple-800/60 px-2.5 py-1 rounded-full">
-              Git Forensics & Archaeology Engine
-            </span>
-          </div>
+          <CommitCemeteryLogo size={38} showText={true} />
           <div className="flex items-center space-x-3">
             <button
               onClick={toggleAudio}
@@ -202,8 +198,8 @@ export default function CommitCemetery() {
 
         {/* Hero Header */}
         <div className="text-center max-w-3xl mx-auto mb-10">
-          <div className="inline-flex items-center justify-center p-3 bg-purple-950/40 rounded-2xl border border-purple-800/50 mb-4 shadow-[0_0_30px_rgba(147,51,234,0.15)]">
-            <Skull className="w-10 h-10 text-purple-400" />
+          <div className="inline-flex items-center justify-center p-3 bg-purple-950/40 rounded-2xl border border-purple-800/50 mb-4 shadow-[0_0_30px_rgba(147,51,234,0.2)] animate-float-ghost">
+            <CommitCemeteryLogo size={76} />
           </div>
           <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-purple-200 via-slate-100 to-emerald-200 bg-clip-text text-transparent font-serif mb-3">
             COMMIT CEMETERY
